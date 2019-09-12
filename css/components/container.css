@@ -1,0 +1,87 @@
+/*Banner sections*/
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+.banner p {
+  color: #d4d7dd;
+  opacity: .7;
+  font-size: 20px;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.btn-secondary {
+  border: 1px solid #51dacf;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #1EDD88;
+}
+
+/*Works sections*/
+
+.container {
+  width: 900px;
+  margin: auto;
+}
+
+.card {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card img {
+  height: 100px;
+}
+
+.card p {
+  opacity: 0.5;
+}
+
+/*footer sections*/
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: black;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #1EDD88;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #BF0F12;
+}
+
+.text-center {
+  text-align: center;
+}
